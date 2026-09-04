@@ -1,0 +1,8 @@
+
+# Ejercicio 3. Convertir edad a meses.
+
+edad = int(input("Introduzaca su edad: "))
+
+meses_aprox = edad * 12
+print("===================")
+print("Usted ha vivido aproximadamente " + str(meses_aprox) + " meses.")
