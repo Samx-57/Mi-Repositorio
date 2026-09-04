@@ -1,9 +1,14 @@
 
-# Ejercicio 9. Conversion de temperatura.
+# Ejercicio 3. Compra en una tienda.
 
-celsius =  int(input("ingrese la temperatura en celsius: "))
+producto = str(input("Ingrese el nombre del producto: "))
+precio = float(input("Ingrese el precio del producto: "))
+cantidad = int(input("Ingrese la cantidad de productos: "))
 
-fahrenheit = (celsius * 9/5) + 32
+total = float(precio * cantidad)
 
-print("Temperatura en celsius: " + str(celsius))
-print("Temperatura en fahrenheit: " + str(fahrenheit))
+print("======= FACTURA ========")
+print("Producto: " + producto)
+print("Precio: " + str(precio))
+print("Cantidad: " + str(cantidad))
+print("Total a pagar: $" + str(total))

@@ -1,13 +1,10 @@
 
-# Ejercicio 7. Compra en una tienda:
+# Ejercicio 7. Area de un rectangulo.
 
-nombre_producto = str(input("nombre del producto: "))
-precio = float(input("precio: "))
-cantidad = int(input("Cantidad: "))
+base = float(input("Introduzaca la base del rectangulo: "))
+altura = float(input("Introduzca la altura del rectangulo: "))
 
-subtotal = precio * cantidad
+área = base * altura
+print("========================")
 
-print("Producto: " + nombre_producto)
-print("Precio: " + str(precio))
-print("Cantidad: " + str(cantidad))
-print("Total: $" + str(subtotal))
+print("El área total del rectangulo es: " + str(área) + " centimetros cuadrados")

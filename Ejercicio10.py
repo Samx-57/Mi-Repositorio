@@ -1,11 +1,12 @@
 
-#Ejercicio 10. Conversion de moneda
+# Ejercicio 10. Salario de un trabajador.
 
-cantidad_dolar = float(input("ingrese la cantidad de dolares: "))
-valor_en_peso_colombiano = float(input("valor del dolar en peso colombiano: "))
+nombre = str(input("Ingrese su nombre: "))
+horas_trabajadas = int(input("Ingrese las horas trabajadas: "))
+valorXhora = float(input("Ingrese el valor por hora: "))
 
-conversion = cantidad_dolar * valor_en_peso_colombiano
+salario = float(horas_trabajadas * valorXhora)
+print("===========================")
 
-print("dolares: " + str(cantidad_dolar))
-print("valor del dolar: " + str(valor_en_peso_colombiano))
-print("Valor en pesos colombianos: " + str(conversion))
+print("Empleado: " + nombre)
+print("Salario: $" + str(salario))

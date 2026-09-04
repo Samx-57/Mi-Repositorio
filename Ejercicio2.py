@@ -1,12 +1,9 @@
 
-# Ejercicio 2. Identiificacion de tipos de datos.
+# Ejercicio 2. Suma de dos numeros.
 
-nombre = "pedro"
-edad = 19
-estatura = 1.75
-matriculado = True
+num1 = int(input("Ingrese el primer numero: "))
+num2 = int(input("Ingrese el segundo numero: "))
 
-print(type(nombre))
-print(type(edad))
-print(type(estatura))
-print(type(matriculado))
+suma = num1 + num2
+print("===============")
+print("La suma de los dos numeros es: " + str(suma))

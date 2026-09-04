@@ -1,9 +1,16 @@
 
-# Ejercicio 3. Datos ingresaados por teclado.
+# Ejercicio 3. Calculadora basica.
 
-nombre = str(input("ingrese su nombre: "))
-edad = int(input("ingrese su edad: "))
-carrera = str(input("ingrese su carrera: "))
-semestre = int(input("Semestre: "))
+num1 = int(input("Ingrese el primer numero: "))
+num2 = int(input("Ingrese el segundo numero: "))
 
-print("hola " + nombre + ", tienes " + str(edad) + " años, estudias " + carrera + " y estas en segundo semestre.")
+suma = num1 + num2
+resta = num1 - num2
+multiplicacion = num1 * num2
+division = num1 / num2
+print("============================")
+
+print("Suma: " + str(suma))
+print("resta: " + str(resta))
+print("Multiplicacion: " + str(multiplicacion))
+print("Division: " + str(division))

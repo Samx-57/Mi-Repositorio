@@ -1,15 +1,11 @@
 
-# Ejercicio 4. Operaciones con variables.
+# Ejercicio 4. Promedio de notas.
 
-numero1 = float(input("ingrese el primer numero: "))
-numero2 = float(input("ingrese el segundo numero "))
+nota1 = float(input("Ingrese la primera nota: "))
+nota2 = float(input("Ingrese la segunda nota: "))
+nota3 = float(input("Ingrese la tercera nota: "))
 
-suma = numero1 + numero2
-resta = numero1 - numero2
-multiplicacion = numero1 * numero2
-division = numero1/numero2 
+promedio = (nota1 + nota2 + nota3) / 3
+print("=================")
 
-print(suma)
-print(resta)
-print(multiplicacion)
-print(division)
+print("Promedio de notas: " + str(promedio))

@@ -1,9 +1,12 @@
 
-# Ejercicio 5 intercambio de variables.
+# Ejercicio 5. Nombre completo.
 
-a = 10
-b = 25
-print(a, b)
+nombre = str(input("Introduzca su nombre: "))
+primer_apellido = str(input("Introduzca su primer apellido: "))
+segundo_apellido = str(input("Introduzca su segundo apellido:  "))
+print("================")
 
-a, b = b, a
-print(a, b)
+print("Nombre: " + nombre)
+print("Primer apellido: " + primer_apellido)
+print("Segundo apellido: " + segundo_apellido)
+print("Nombre completo: " + nombre + " " + primer_apellido + " " + segundo_apellido)
