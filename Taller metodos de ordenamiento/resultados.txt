@@ -1,0 +1,24 @@
+Integrantes: 1) Juan Diego Aguirre Villa  2) Samuel Cantillo  3) Juan Leguia Torregrosa
+
+Método: burbuja (Bubble sort)
+
+Tiempo 10.000 números (ms): 149.58
+Tiempo 100.000 números (ms): 16567.31
+
+Código fuente del método:
+
+static void burbuja(int[] a) {
+    int n = a.length;
+    for (int i = 0; i < n - 1; i++) {
+        boolean huboCambio = false;
+        for (int j = 0; j < n - 1 - i; j++) {
+            if (a[j] > a[j + 1]) {
+                int tmp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = tmp;
+                huboCambio = true;
+            }
+        }
+        if (!huboCambio) break;
+    }
+}
